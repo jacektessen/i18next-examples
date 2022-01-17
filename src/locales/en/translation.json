@@ -1,0 +1,32 @@
+{
+  "title": "Welcome to react using react-i18next",
+  "description": {
+    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+    "part2": "Switch language between english and german using buttons above."
+  },
+  "examples": {
+    "item1": "Regular text",
+    "item2": "<underline>Trans</underline> component with <bold>custom</bold> tags",
+    "item3": "HTML tag <strong> without Trans",
+    "item4": "HTML tag strong inside <strong>Trans</strong>",
+    "item5": "Interpolation, name value: <b>{{name}}</b>",
+    "item6_one": "Example as a singular",
+    "item6_other": "Example as plural",
+    "nesting": {
+      "nesting1": "nesting: 1 $t(examples.nesting.nesting2)",
+      "nesting2": "2 $t(examples.nesting.nesting3)",
+      "nesting3": "3"
+    },
+    "context": {
+      "friend": "A friend",
+      "friend_male": "A boyfriend",
+      "friend_female": "A girlfriend"
+    },
+    "daysArray": ["Mon.", "Tue.", "Wed.", "Thu.", "Fri.", "Sat.", "Sun."],
+    "objectItem": {
+      "someKey": {
+        "value": "Value from object"
+      }
+    }
+  }
+}
