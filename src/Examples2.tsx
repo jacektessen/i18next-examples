@@ -11,7 +11,7 @@ export const Examples2 = () => {
   // const { t, i18n } = useTranslation();
   const [, force] = useState({});
   console.log({ langs: i18n.languages });
-  // const name = "Marilyn"; ttOOOOO
+  // const name = "Marilyn"; 
   // const daysText = t("examples.daysArray", { returnObjects: true }) as string[];
   // const objItem = t("examples.objectItem", { returnObjects: true }) as Record<string, any>;
 
